@@ -1,0 +1,32 @@
+body {
+  background-color: grey;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 612px;
+  height: 612px;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border: 2px solid black;
+}
+
+.playerX {
+  background-image: url('cross.png');
+  background-size: cover;
+}
+
+.computerO {
+  background-image: url('circle.png');
+  background-size: cover;
+}
